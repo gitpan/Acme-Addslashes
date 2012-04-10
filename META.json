@@ -1,0 +1,53 @@
+{
+   "abstract" : "Perl twist on the most useful PHP function ever - addslashes",
+   "author" : [
+      "James Aitken <jaitken@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300014, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Acme-Addslashes",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Encode" : "0",
+            "Exporter" : "0",
+            "feature" : "0",
+            "parent" : "0",
+            "perl" : "5.010",
+            "strict" : "0",
+            "utf8" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0",
+            "warnings" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/LoonyPandora/Acme-Addslashes/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/LoonyPandora/Acme-Addslashes.git",
+         "web" : "https://github.com/LoonyPandora/Acme-Addslashes"
+      }
+   },
+   "version" : "0.1.0"
+}
+
