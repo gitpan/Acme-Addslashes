@@ -4,6 +4,8 @@ use utf8;
 
 # ABSTRACT: Perl twist on the most useful PHP function ever - addslashes
 
+=encoding utf-8
+
 =head1 NAME
 
 Acme::Addslashes - Perl twist on the most useful PHP function ever - addslashes
@@ -56,7 +58,7 @@ use parent "Exporter";
 
 our @EXPORT_OK = qw(addslashes);
 
-our $VERSION = '0.1.0';
+our $VERSION = '0.1.1';
 
 =head1 FUNCTIONS
 

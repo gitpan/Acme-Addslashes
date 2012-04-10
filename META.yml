@@ -25,4 +25,4 @@ requires:
 resources:
   bugtracker: https://github.com/LoonyPandora/Acme-Addslashes/issues
   repository: git://github.com/LoonyPandora/Acme-Addslashes.git
-version: 0.1.0
+version: 0.1.1
