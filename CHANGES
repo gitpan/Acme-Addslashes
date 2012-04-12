@@ -1,3 +1,16 @@
+0.1.2   2012-04-12
+
+    [ FEATURE ]      
+    * Now with extra long slashes, for even more protection!
+      (Sam Kington)
+
+    [ BUGFIX ]
+    * Requires Perl 5.12 for the unicode_strings feature
+
+    [ TESTS ]
+    * Added additional tests, so more things get slashed up
+
+
 0.1.1   2012-04-10
 
     [ DOCUMENTATION ]

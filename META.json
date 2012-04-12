@@ -25,7 +25,7 @@
             "Exporter" : "0",
             "feature" : "0",
             "parent" : "0",
-            "perl" : "5.010",
+            "perl" : "v5.12.0",
             "strict" : "0",
             "utf8" : "0"
          }
@@ -48,6 +48,6 @@
          "web" : "https://github.com/LoonyPandora/Acme-Addslashes"
       }
    },
-   "version" : "0.1.1"
+   "version" : "0.1.2"
 }
 
