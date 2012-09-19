@@ -12,8 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Perl twist on the most useful PHP function ever - addslashes",
   "AUTHOR" => "James Aitken <jaitken\@cpan.org>",
   "BUILD_REQUIRES" => {
-    "Test::More" => 0,
-    "warnings" => 0
+    "Test::More" => "0.96"
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -23,14 +22,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Acme::Addslashes",
   "PREREQ_PM" => {
-    "Encode" => 0,
-    "Exporter" => 0,
-    "feature" => 0,
-    "parent" => 0,
-    "strict" => 0,
-    "utf8" => 0
+    "Exporter" => "5.65",
+    "parent" => "0.224"
   },
-  "VERSION" => "0.1.2",
+  "VERSION" => "0.1.3",
   "test" => {
     "TESTS" => "t/*.t"
   }
